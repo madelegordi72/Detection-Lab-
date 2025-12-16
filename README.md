@@ -11,5 +11,6 @@ This lab simulates a SOC Tier-1 authentication log analysis tool. The script eva
 3. Notifies when it reaches threshold login attempts
 4. Outputs a clear security status message
 
-## Clean Log Analysis 
+## Clean Log Analysis OUTPUT
 The following output is my own auth.log from /var. It shows normal authentication traffic. No anomalies in this log file. 
+![Clean Log Analysis OUTPUT](Screenshots/clean_log.png)
