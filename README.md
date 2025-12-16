@@ -19,5 +19,9 @@ The following output is my own auth.log from /var. It shows normal authenticatio
 ## Suspicous Log Analysis OUTPUT 
 This examples shows how the analyzer responded to data logs that fit the login pattern thresholds. This log is a practice set of susioupous auth.log. 
 
-![Suspicious Log Analysis OUTPUT](Screenshots/sus_log.png)
+![Suspicious Log Analysis OUTPUT](Screenshots/Sus_log.png)
 
+## Detection Logic (Display function) 
+This conditonal reveals where the user name insert the log file. Next, what message will display based on what the log holds. 
+
+ ![Detection Logic Display funciton](Screenshots/clean_log_logic.png)
