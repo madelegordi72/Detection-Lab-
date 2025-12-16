@@ -13,4 +13,5 @@ This lab simulates a SOC Tier-1 authentication log analysis tool. The script eva
 
 ## Clean Log Analysis OUTPUT
 The following output is my own auth.log from /var. It shows normal authentication traffic. No anomalies in this log file. 
+
 ![Clean Log Analysis OUTPUT](Screenshots/clean_log.png)
