@@ -3,12 +3,12 @@ it# Detection-Lab-
 ## Python SOC Authentication Log Analyzer 
 
 ## Overview
-This lab simulates a SOC Tier-1 authentication log analysis tool. The script evaluates system authentication logs and flags suspicous activity based on predefined authentication thresholds. This Authentication will quickly distinguish authetnication patterns of brute-force or credintal abuse attacks. 
+This lab simulates a SOC Tier-1 authentication log analysis tool. The script evaluates system authentication logs and flags suspicous activity based on predefined authentication thresholds. This authentication will quickly distinguish authetnication patterns of brute-force or credintal abuse attacks. 
 
 ## How It Works 
 1. Parse an uploaded authentication log file
 2. Counts failed login attempts
-3. Notifies when it reaches threshold login attempts
+3. Notifies when reaches threshold login attempts
 4. Outputs a clear security status message
 
 ## Clean Log Analysis OUTPUT
@@ -17,11 +17,11 @@ The following output is my own auth.log from /var. It shows normal authenticatio
 ![Clean Log Analysis OUTPUT](Screenshots/clean_log.png)
 
 ## Suspicous Log Analysis OUTPUT 
-This examples shows how the analyzer responded to data logs that fit the login pattern thresholds. This log is a practice set of susioupous auth.log. 
+This examples shows how the analyzer responded to data logs that fit the login pattern thresholds. This log is a practice set of suspicous auth.log. 
 
 ![Suspicious Log Analysis OUTPUT](Screenshots/Sus_log.png)
 
 ## Detection Logic (Display function) 
-This conditonal reveals where the user name insert the log file. Next, what message will display based on what the log holds. 
+The first highligted line is where the user can insert the Linux log file. Next, what message will display based on what the log holds. 
 
  ![Detection Logic Display funciton](Screenshots/clean_log_logic.png)
