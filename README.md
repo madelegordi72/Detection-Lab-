@@ -3,7 +3,7 @@ it# Detection-Lab-
 ## Python SOC Authentication Log Analyzer 
 
 ## Overview
-This lab simulates a SOC Tier-1 authentication log analysis tool. The script evaluates system authentication logs and flags suspicous activity based on predefined authentication thresholds. This authentication will quickly distinguish authetnication patterns of brute-force or credintal abuse attacks. 
+This lab simulates a SOC Tier-1 authentication log analysis tool. The script evaluates system authentication logs and flags suspicous activity based on predefined authentication thresholds. This authentication will quickly distinguish authentication patterns of brute-force or credintal abuse attacks. 
 
 ## How It Works 
 1. Parse an uploaded authentication log file
